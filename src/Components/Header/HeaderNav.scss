@@ -1,0 +1,55 @@
+@import "../../Sass/Color-Pallete.scss";
+
+.header-container {
+  max-width: 1920px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: 2px solid $Secondary-Light;
+  background: $Primary-Dark;
+
+  .name-label {
+    margin: 0 auto;
+    height: 100%;
+    color: white;
+    font-size: xx-large;
+  }
+
+  .hamburger-menu {
+    margin: 0.5rem 2rem;
+    padding: 0.2rem;
+    border: 1.5px solid grey;
+    border-radius: 25%;
+    background: $Secondary-Light;
+
+    &:hover {
+      border-color: yellow;
+    }
+  }
+
+  .hamburger-links {
+    // display: none;
+    position: absolute;
+    z-index: 10;
+    width: 10rem;
+    right: 0rem;
+    top: 72px;
+    border: 1px solid $Primary-Dark2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    // padding-left: 0.5rem;
+    background: $Primary-Dark2;
+
+    .link {
+      height: 2rem;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid $Primary-Dark2;
+      width: 100%;
+      padding-left: 5px;
+      color: $Secondary-Light;
+    }
+  }
+}
