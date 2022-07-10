@@ -22,6 +22,10 @@ const Home = () => {
     }
   };
 
+  const backButtonHandler = () => {
+    console.log("Go Back");
+  };
+
   console.log(disciplineSelected);
   return (
     <div className="home-container">
