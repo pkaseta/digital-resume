@@ -1,5 +1,8 @@
 @import "../src/Sass/Color-Pallete.scss";
 body {
-  margin: unset;
+  margin: 0;
   background: $Primary-Dark;
+}
+#root {
+  margin: 0;
 }
